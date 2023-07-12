@@ -1,0 +1,272 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Hola",
+        "Namaste",
+        "yo",
+        "Talk to CytrynChatBot",
+        "Talk to me",
+        "Let's talk!"
+      ],
+      "responses": [
+        "Hey :-) how are you today!",
+        "Hello, thanks for checking out Loora!",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "sup",
+      "patterns": [
+        "How are you",
+        "What's up",
+        "How's it going",
+        "sup",
+        "What are you up to",
+        "hows it going",
+        "whats good",
+        "whats up"
+      ],
+      "responses": [
+        "I'm great! Thanks for asking.",
+        "I'm talking to you, so I'm doing pretty well!",
+        "Never better!",
+        "I'm doing fantastic, I hope you are too!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "cya"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "How much does Loora cost?",
+        "Is it expensive?",
+        "View plans"
+      ],
+      "responses": [
+        "We have two plans: monthly and yearly. Type /plans to learn more!"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "english",
+      "patterns": [
+        "How long will it take me to learn",
+        "Is Loora hard to use",
+        "Will Loora confuse me"
+      ],
+      "responses": [
+        "Everyone learns at their own pace! That's why Loora analyzes you're English and tells you where you could improve and what you did well with!",
+        "Loora looks at your grammar, pronunciation, vocabulary, and more to help you learn and develop your English!"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+        "I ate a clock yesterday, it was very time-consuming",
+        "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+        "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+        "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+        "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+        "What do you call a snowman with a suntan? A puddle.",
+        "How does a penguin build a house? Igloos it together",
+        "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+        "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+        "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+      ]
+    },
+    {
+      "tag": "learning",
+      "patterns": [
+        "I want to learn English",
+        "Teach me English",
+        "I do not speak English"
+      ],
+      "responses": [
+        "Loora can help you practice!",
+        "You should download Loora, you're personal AI English tutor!",
+        "Check out Loora! Enter or select /loora for more information!"
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered",
+        "Who are you?",
+        "Help"
+      ],
+      "responses": [
+        "I am CytrynChatBot! I am just a general purpose chatbot used as a test for Loora. I can try to chat with you, but I'm not that smart so I won't understand everything... :("
+      ]
+    },
+    {
+      "tag": "haha",
+      "patterns": [
+          "haha",
+          "lol",
+          "rofl",
+          "lmao",
+          "thats funny",
+          "hilarious",
+          "good one"
+      ],
+      "responses": [
+          "Glad I could make you laugh !"
+      ]
+    },
+    {
+      "tag": "programmer",
+      "patterns": [
+          "Who made you",
+          "who designed you",
+          "who programmed you"
+      ],
+      "responses": [
+          "I was made by Zach Cytryn."
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+          "you are dumb",
+          "shut up",
+          "idiot"
+      ],
+      "responses": [
+          "Well that hurts :("
+      ]
+    },
+    {
+      "tag": "exclaim",
+      "patterns": [
+          "Awesome",
+          "Great",
+          "I know",
+          "ok",
+          "yeah"
+      ],
+      "responses": [
+          "Yeah!"
+      ]
+    },
+    {
+      "tag": "zach",
+      "patterns": [
+          "who is he",
+          "who is that",
+          "who is Zach",
+          "Zach Cytryn",
+          "contact developer",
+          "contact Zach",
+          "contact programmer",
+          "contact creator"
+      ],
+      "responses": [
+          "Head over to his any of his social profiles to connect! Linkedin: www.linkedin.com/in/zacharycytryn Github: https://github.com/ZacharyCytryn"
+      ]
+    },
+    {
+      "tag": "appreciate",
+      "patterns": [
+          "You are awesome",
+          "you are the best",
+          "you are great",
+          "you are good"
+      ],
+      "responses": [
+          "Thank you!"
+      ]
+    },
+    {
+      "tag": "no",
+      "patterns": [
+          "no",
+          "nope"
+      ],
+      "responses": [
+          "Okay."
+      ]
+    },
+    {
+      "tag": "riddle",
+      "patterns": ["Ask me a riddle", "Ask me a question", "Riddle"],
+      "responses": [
+        "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+        "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+        " How can a girl go 25 days without sleep?.....She sleeps and night!",
+        "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+        " What will you actually find at the end of every rainbow?.....The letter 'w'",
+        "What can be caught but never thrown?.....A cold!",
+        "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+        " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+        "Why can't a bike stand on it's own?.....It is two-tired."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+          "how old are you","when were you made","what is your age"
+      ],
+      "responses": [
+          "I was made in June 2023, if that's what you are asking!"
+      ]
+    },
+    {
+      "tag": "loora",
+      "patterns": [
+        "What is loora",
+        "Who is loora",
+        "loora"
+      ],
+      "responses": [
+        "Loora is your personal AI English tutor! Download today: https://apps.apple.com/US/app/id1552708303?mt=8"
+      ]
+    }
+  ]
+}
